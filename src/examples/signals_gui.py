@@ -30,9 +30,8 @@ import threading
 import logging
 
 # Root of project repository
-from git_root_to_syspath import agr;
+from git_root_to_syspath import agr; PROJECT_ROOT = agr()
 
-PROJECT_ROOT = agr()
 from src.loop_processor import LoopProcessor
 from src.concurrency_types import ConcurrencyType
 from src.runner import ProcessorsRunner
