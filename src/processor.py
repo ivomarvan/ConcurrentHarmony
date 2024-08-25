@@ -16,7 +16,7 @@ from time import sleep
 # Root of project repository
 from git_root_to_syspath import agr; PROJECT_ROOT = agr()
 
-from src.run.rpi.signals import SignalsEnum
+from src.signals.std_signals import SignalsEnum
 from src.log.log_manager import LoggerAccess
 from src.concurrency_types import ConcurrencyType
 

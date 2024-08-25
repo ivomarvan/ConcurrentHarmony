@@ -15,8 +15,7 @@ import struct
 import time
 import types
 import signal
-import multiprocessing
-from typing import Dict, Callable
+from typing import Callable
 from enum import Enum, auto
 from collections.abc import Sized
 import fcntl

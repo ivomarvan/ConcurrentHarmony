@@ -1,6 +1,7 @@
 # Concurrent Harmony:
 
 **Where Threads and Processes Sing Together.**
+
 Concurrency Signal and State Management Library
 
 <img src="img/ConcurrentHarmony.jpg" alt="Concurrent Harmony" width="400"/>
@@ -8,7 +9,9 @@ Concurrency Signal and State Management Library
 ## Motivation
 
 I developed this library as part of a larger project at the company
-<a href="zuri.com">Zuri.com. <img src="img/zuri.com.png" alt="Zuri Logo" width="100"/></a>
+<a href="zuri.com">Zuri.com. 
+
+<img src="img/zuri.com.png" alt="Zuri Logo" width="100"/></a>
 
 With the kind permission of <a href="https://illich.cz/">Michal Illich</a>,
 I am publishing it here and offering it for public use.
@@ -28,6 +31,21 @@ This Python library provides a **comprehensive framework** for managing concurre
 processes and threads**. It is designed to handle complex scenarios where processes and threads need to communicate and
 coordinate their activities using signals and shared states. The library supports both standard signals and user-defined
 signals, allowing for a flexible and powerful concurrency management solution.
+
+
+## Installation
+To install the library, clone the repository and install the required dependencies using pip:
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+pip install -r requirements.txt
+```
+
+## Getting Started
+1. Review the examples provided in the examples/ directory to understand how to use the library in different scenarios.
+2. Customize the provided classes to suit your specific needs. The library is designed to be flexible and extendable.
+3. Run the example scripts to see how the library manages processes, signals, and states.
 
 ## License
 This project is licensed under the MIT License. 

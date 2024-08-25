@@ -18,7 +18,7 @@ from git_root_to_syspath import agr;
 
 PROJECT_ROOT = agr()
 from src.processor import Processor
-from src.run.rpi.signals import SignalsEnum
+from src.signals.std_signals import SignalsEnum
 
 
 class LoopProcessor(Processor):

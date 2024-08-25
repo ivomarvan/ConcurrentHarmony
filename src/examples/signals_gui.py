@@ -37,7 +37,7 @@ from src.loop_processor import LoopProcessor
 from src.concurrency_types import ConcurrencyType
 from src.runner import ProcessorsRunner
 import multiprocessing
-from src.run.rpi.signals import SignalsEnum
+from src.signals.std_signals import SignalsEnum
 from src.log.log_manager import LogManager
 from src.state_in_file import StateInFile
 
