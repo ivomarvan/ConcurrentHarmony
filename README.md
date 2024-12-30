@@ -6,6 +6,14 @@ Concurrency Signal and State Management Library
 
 <img src="img/ConcurrentHarmony.jpg" alt="Concurrent Harmony" width="400"/>
 
+
+## Overview
+
+This Python library provides a **comprehensive framework** for managing concurrency in applications that involve **multiple
+processes and threads**. It is designed to handle complex scenarios where processes and threads need to communicate and
+coordinate their activities using signals and shared states. The library supports both standard signals and user-defined
+signals, allowing for a flexible and powerful concurrency management solution.
+
 ## Motivation
 
 I developed this library as part of a larger project at the company
@@ -24,13 +32,6 @@ CAN bus.
 All of this required a **high degree of parallelism**.
 
 The entire program ran on a Raspberry Pi 4b aboard the drone in a Raspberry Pi OS (Linux) environment.
-
-## Overview
-
-This Python library provides a **comprehensive framework** for managing concurrency in applications that involve **multiple
-processes and threads**. It is designed to handle complex scenarios where processes and threads need to communicate and
-coordinate their activities using signals and shared states. The library supports both standard signals and user-defined
-signals, allowing for a flexible and powerful concurrency management solution.
 
 
 ## Installation
